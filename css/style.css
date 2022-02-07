@@ -867,7 +867,7 @@ ul.cart-list > li.total > .btn:hover {
   letter-spacing: 0;
   font-weight: normal;
   position: relative;
-  padding: 30px 0 10px 0;
+  padding: 30px 0 0px 0;
   font-weight: normal;
   line-height: 120% !important;
   color: #1f1f1f;
@@ -876,7 +876,7 @@ ul.cart-list > li.total > .btn:hover {
 /*------------------------------------------------------------------ Categories Shop -------------------------------------------------------------------*/
 
 .categories-shop {
-  padding: 30px 0px;
+  padding: 0px 0 20px 0;
 }
 .shop-cat-box {
   margin-bottom: 30px;
@@ -957,7 +957,7 @@ ul.cart-list > li.total > .btn:hover {
   font-size: 16px;
 }
 .products-box {
-  padding: 10px 0px;
+  padding: 10px 0 20px 0;
 }
 .special-menu {
   margin-bottom: 10px;
