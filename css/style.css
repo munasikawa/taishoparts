@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i,900,900i&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700"); */
 
 /*
 
@@ -30,7 +30,7 @@
 body {
   color: #666666;
   font-size: 15px;
-  font-family: "Dosis", sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 1.80857;
 }
 a {
@@ -246,7 +246,7 @@ p {
   color: #ffffff;
   font-size: 13px;
   padding: 2px 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .offer-box li {
   font-weight: 600;
@@ -831,7 +831,7 @@ ul.cart-list > li.total > .btn:hover {
   opacity: 0.5;
 }
 .cover-slides h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 64px;
   color: #fff;
@@ -919,7 +919,8 @@ ul.cart-list > li.total > .btn:hover {
 
 .box-add-products {
   padding: 30px 0px;
-  background-color: #f4f4f4;
+  background: url(../images/offer-bg.jpg) no-repeat center center;
+  background-color: #000000;
 }
 
 .offer-box {
@@ -1019,7 +1020,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 .why-text h5 {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding: 4px;
   display: inline-block;
   background: #003791;
@@ -1492,7 +1493,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 .footer-link ul li a::before {
   font-family: FontAwesome;
-  content: "\f105";
+  /* content: "\f105"; */
   position: absolute;
   left: 5px;
   line-height: 35px;
@@ -2693,8 +2694,72 @@ ul.cart-list > li.total > .btn:hover {
   display: block;
   padding: 0 20px;
 }
-@media (max-width: 991.98px) {
+@media (max-width: none) {
   .ftco-partner .partner {
     padding: 0;
+  }
+}
+
+/* Different Partners */
+/* PARTNERS SECTION */
+#partners {
+  background: url("../images/large_bg_image.jpg?1395266600") 50% 0 repeat-y
+    fixed;
+}
+
+.partner-logo {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-right: 1px solid rgb(172, 172, 172);
+  cursor: pointer;
+}
+.partner-logo:last-child {
+  border: none;
+}
+.partner-logo:hover {
+  background-color: dimgray;
+}
+.partner-logo img {
+  padding: 30px;
+}
+.content-section {
+  position: relative;
+  z-index: 10;
+  padding: 100px 0 90px 0;
+}
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+@media handheld, only screen and (max-width: 992px) {
+  .folio-thumb img {
+    width: 100%;
+    background-size: cover;
+  }
+
+  #filters li {
+    margin-bottom: 10px;
+  }
+
+  .flex-caption {
+    display: none;
+  }
+
+  .team-thumb img {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .partner-logo {
+    margin-top: 10px;
   }
 }
