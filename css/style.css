@@ -1609,7 +1609,7 @@ ul.cart-list > li.total > .btn:hover {
   margin: 0px;
   display: inline-block;
   border-radius: 0px;
-  float: right;
+  /* float: right; */
 }
 .all-title-box .breadcrumb li {
   display: inline-block;
@@ -2174,7 +2174,7 @@ ul.cart-list > li.total > .btn:hover {
   box-shadow: none;
   color: #fff;
   display: inline-block;
-  float: right;
+  /* float: right; */
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
@@ -2700,7 +2700,6 @@ ul.cart-list > li.total > .btn:hover {
   }
 }
 
-/* Different Partners */
 /* PARTNERS SECTION */
 #partners {
   background: url("../images/large_bg_image.jpg?1395266600") 50% 0 repeat-y
